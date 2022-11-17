@@ -1,4 +1,5 @@
 import './Home.css';
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -7,12 +8,17 @@ function Home() {
                 <div class="rpgui-content" id="home-title">
                     <h1>IECSE</h1>
                 </div>
+                <div id="home-txt">
+                    <p>The offical Computer Science Club of Manipal !</p>
+                </div>
+                <Link to="/Rules">
+                    <button class="rpgui-button" type="button" id="home-button">
+                        <div className='blink_me'>
+                            <p>Play Game!</p>
+                        </div>
+                    </button>
+                </Link>
 
-                <button class="rpgui-button" type="button" id="home-button">
-                    <div className='blink_me'>
-                        <p>Play Game!</p>
-                    </div>
-                </button>
             </div>
         </div>
     );

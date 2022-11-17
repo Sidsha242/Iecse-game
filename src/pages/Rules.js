@@ -1,14 +1,29 @@
 import './Rules.css';
+import { Link } from "react-router-dom";
+import user1 from "../Images/rotate-smartphone.png";
 
 function Rules() {
     return (
         <div className='rpgui-content'>
-            <div class="rpgui-container framed-golden-2">
-                <ul>
-                    <li>Collect Coins</li>
-                    <li>Avoid the obstacles</li>
-                    <li>Good luck!</li>
-                </ul>
+            <div className="rpgui-container framed" id="home-cont">
+                <div class="rpgui-container framed-golden-2" id="rules-cont">
+                    <ul>
+                        <li>Collect Coins</li>
+                        <li>Avoid the obstacles</li>
+                        <li>Good luck!</li>
+                    </ul>
+                </div>
+                <div className='rpgui-container framed-golden' id="rules-cont2">
+                    <p>Please turn your phone for a better experience</p>
+                    <img src={user1} className="tilt-img"></img>
+                </div>
+                <Link to="/Game">
+                    <button class="rpgui-button" type="button" id="rules-button">
+                        <div className='blink_me'>
+                            <p>Play!</p>
+                        </div>
+                    </button>
+                </Link>
             </div>
         </div>
     );
