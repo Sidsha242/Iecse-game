@@ -55,8 +55,9 @@
         justify-content: center;
         align-items: center;
         margin-top: 80vw;
-        margin-left: 33%;
+        margin-left: 26%;
         margin-bottom: 2%;
+        width: 20%;
     }
 
     .tilt-img {

@@ -1,8 +1,13 @@
 import './Rules.css';
 import { Link } from "react-router-dom";
 import user1 from "../Images/rotate-smartphone.png";
+import user2 from "./game-start.mp3"
 
 function Rules() {
+    let audio = new Audio(user2);
+    const start = () => {
+        audio.play()
+    }
     return (
         <div className='rpgui-content'>
             <div className="rpgui-container framed" id="home-cont">
@@ -18,7 +23,7 @@ function Rules() {
                     <img src={user1} className="tilt-img"></img>
                 </div>
                 <Link to="/Game">
-                    <button class="rpgui-button" type="button" id="rules-button">
+                    <button class="rpgui-button" type="button" id="rules-button" onClick={start}>
                         <div className='blink_me'>
                             <p>Play!</p>
                         </div>

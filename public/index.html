@@ -20,10 +20,14 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <audio controls autoplay="true" loop="true" hidden="hidden">
+  <audio controls autoplay="true" loop="true" hidden="hidden" id="myaudio">
     <source src="Retro_Platforming-David_Fesliyan.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+  <script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.2;
+  </script>
 </body>
 
 </html>
