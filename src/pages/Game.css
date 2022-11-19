@@ -8,12 +8,43 @@ p {
     margin-bottom: 0;
 }
 
-.game-cont-land {
-    height: 100vh;
-    background-color: blue;
-}
-
 .game-cont-pot {
     height: 100vh;
     background-color: black;
+}
+
+#text-cont-game {
+    padding-top: 30%;
+    padding-left: 20%;
+}
+
+.game-cont-land {
+    height: 100vh;
+    background-color: grey;
+}
+
+.game-frame {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#button-cont {
+    margin-top: 40%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .game-cont-pot {
+        display: block;
+    }
+
+    /* show it on small screens */
+}
+
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+    .game-cont-pot {
+        display: none;
+    }
+
+    /* hide it elsewhere */
 }

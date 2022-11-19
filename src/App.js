@@ -3,6 +3,7 @@ import End from "./pages/End";
 import Game from "./pages/Game";
 import Home from "./pages/Home";
 import Rules from "./pages/Rules";
+import './App.css';
 function App() {
   return (
     <BrowserRouter>
