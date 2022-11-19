@@ -21,6 +21,7 @@ p {
 .game-cont-land {
     height: 100vh;
     background-color: grey;
+    margin-bottom: 10%;
 }
 
 .game-frame {
@@ -38,12 +39,22 @@ p {
         display: block;
     }
 
+    #button-cont {
+        margin-top: 152vw;
+        margin-left: 32%;
+    }
+
     /* show it on small screens */
 }
 
 @media screen and (min-width: 500px) and (max-width: 1500px) {
     .game-cont-pot {
         display: none;
+    }
+
+    #button-cont {
+        margin-top: 36.5vw;
+        margin-left: 43.5%;
     }
 
     /* hide it elsewhere */

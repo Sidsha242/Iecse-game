@@ -3,10 +3,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    margin-left: 25%;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 23%;
+    width: 45%;
     height: 35%;
+    text-align: left;
+}
+
+ul {
+    padding-left: 0;
 }
 
 #rules-button {
@@ -20,6 +24,7 @@
 #rules-cont2 {
     width: 23%;
     margin-top: 24%;
+    margin-left: 72%;
 }
 
 .tilt-img {
@@ -43,7 +48,7 @@
 @media (max-width:480px) {
 
     #rules-cont {
-        margin-top: 23%;
+        margin-top: 18%;
         margin-left: 19%;
         width: 50%;
         height: 23%;
@@ -51,13 +56,9 @@
     }
 
     #rules-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 80vw;
-        margin-left: 26%;
-        margin-bottom: 2%;
         width: 20%;
+        margin-top: 92%;
+        margin-left: 30%;
     }
 
     .tilt-img {
@@ -67,7 +68,7 @@
 
     #rules-cont2 {
         width: 55%;
-        margin-top: 105vw;
+        margin-top: 106vw;
         margin-left: 18%;
     }
 }

@@ -21,9 +21,6 @@ function End() {
                 </div>
             </div>
 
-            <div className='rpgui-content'>
-                <h2>Made by Lance,Karan and Sidhant.</h2>
-            </div>
         </div>
     );
 }

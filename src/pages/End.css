@@ -19,10 +19,45 @@ a {
     text-decoration: none;
 }
 
+#end-button {
+    margin-top: 140%;
+    margin-left: 20%;
+    font-size: 3.5vw;
+}
+
 @media screen and (min-width: 0px) and (max-width: 500px) {
-    #end-button {
-        margin-top: 140%;
+
+    #end-cont {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 19%;
         margin-left: 20%;
+    }
+
+    #end-button {
+        margin-top: 108vw;
+        margin-left: 32%;
         font-size: 3.5vw;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+    #end-cont {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 8%;
+        margin-left: 20%;
+    }
+
+    #end-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30vw;
+        margin-left: 37%;
+        font-size: 1.3vw;
     }
 }

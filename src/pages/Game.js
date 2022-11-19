@@ -1,6 +1,5 @@
 import './Game.css';
 import React, { Component } from 'react';
-import { Unity, useUnityContext } from "react-unity-webgl";
 import user2 from "./game-start.mp3"
 import { Link } from "react-router-dom";
 
@@ -25,15 +24,16 @@ function Game() {
                     </div>
                 </div>
             </div>
-            <div className='rpgui-content' id="button-cont">
-                <Link to="/end">
+
+            <Link to="/end">
+                <div className='rpgui-content' id="button-cont">
                     <button class="rpgui-button" type="button" id="game-button" onClick={start}>
                         <div className='blink_me'>
                             <p>Next!</p>
                         </div>
                     </button>
-                </Link>
-            </div>
+                </div>
+            </Link>
         </div>
 
     );
