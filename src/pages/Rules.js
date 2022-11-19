@@ -10,7 +10,7 @@ function Rules() {
     }
     return (
         <div className='rpgui-content'>
-            <div className="rpgui-container framed" id="home-cont">
+            <div className="rpgui-container framed" id="rules-main-cont">
                 <div class="rpgui-container framed-golden-2" id="rules-cont">
                     <ul>
                         <li>Collect Coins</li>

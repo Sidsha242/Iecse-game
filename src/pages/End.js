@@ -5,7 +5,7 @@ function End() {
     return (
         <div>
             <div className='rpgui-content'>
-                <div className="rpgui-container framed" id="home-cont">
+                <div className="rpgui-container framed" id="end-main-cont">
                     <div class="rpgui-container framed-golden-2" id="end-cont">
                         <p>
                             The game has ended..

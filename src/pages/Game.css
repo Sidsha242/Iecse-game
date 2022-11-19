@@ -19,9 +19,11 @@ p {
 }
 
 .game-cont-land {
+    display: flex;
+    justify-content: center;
     height: 100vh;
     background-color: grey;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .game-frame {
@@ -30,8 +32,12 @@ p {
     max-height: 100%;
 }
 
-#button-cont {
-    margin-top: 40%;
+
+#game-button {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-left: 43%;
+    margin-top: 0%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 500px) {
