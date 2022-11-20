@@ -47,8 +47,8 @@ ul {
     }
 }
 
+/*small screen*/
 @media screen and (min-width: 0px) and (max-width: 500px) {
-
     #rules-cont {
         margin-top: 10%;
         margin-left: 19%;
@@ -75,5 +75,52 @@ ul {
         margin-left: 18%;
     }
 
+}
+
+/*Landscape*/
+@media screen and (min-width: 500px) and (max-width: 900px) {
+
+    #rules-cont {
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 50%;
+        height: 23%;
+        padding: 2%;
+    }
+
+    #rules-button {
+        width: 20%;
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+
+    #rules-cont2 {
+        width: 25%;
+        margin-top: 6vw;
+        margin-left: 58%;
+    }
 
 }
+
+
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+    #end-cont {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-top: 8%;
+        margin-left: 20%;
+        font-size: 0.9rem;
+    }
+
+    #end-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25vw;
+        margin-left: 37%;
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {}

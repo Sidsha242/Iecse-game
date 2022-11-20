@@ -13,8 +13,8 @@ function Rules() {
             <div className="rpgui-container framed" id="rules-main-cont">
                 <div class="rpgui-container framed-golden-2" id="rules-cont">
                     <ul>
-                        <li>Collect Coins</li>
-                        <li>Avoid the obstacles</li>
+                        <li>Tap the screen to fly</li>
+                        <li>Collect the coins</li>
                         <li>Good luck!</li>
                     </ul>
                 </div>

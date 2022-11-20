@@ -9,7 +9,7 @@ function End() {
                     <div class="rpgui-container framed-golden-2" id="end-cont">
                         <p>
                             The game has ended..
-                            But you journey at IECSE has just begun
+                            But your journey at IECSE has just begun!
                             Click the button to register for our GBM
                         </p>
                     </div>

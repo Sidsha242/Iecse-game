@@ -58,18 +58,19 @@ a {
         display: flex;
         justify-content: center;
         width: 50%;
-        margin-top: 6%;
+        margin-top: 4%;
         margin-left: 20%;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     #end-button {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30vw;
+        margin-top: 25vw;
         margin-left: 37%;
-        font-size: 1.23vw;
+        font-size: 1.00vw;
+        width: 10rem;
     }
 }
 
