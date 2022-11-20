@@ -1,5 +1,4 @@
 import './Game.css';
-import React, { Component } from 'react';
 import user2 from "./game-start.mp3"
 import { Link } from "react-router-dom";
 
