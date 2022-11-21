@@ -19,7 +19,7 @@ function Rules() {
                     </ul>
                 </div>
                 <div className='rpgui-container framed-golden' id="rules-cont2">
-                    <p>Please turn your phone for a better experience</p>
+                    <p>Please switch on auto rotate on your devise for a better experience</p>
                     <img src={user1} className="tilt-img"></img>
                 </div>
                 <Link to="/Game">

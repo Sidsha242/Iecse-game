@@ -1,5 +1,4 @@
 import './End.css';
-import user2 from "./game-start.mp3";
 
 function End() {
     return (
@@ -15,7 +14,7 @@ function End() {
                     </div>
                     <button class="rpgui-button" type="button" id="end-button">
                         <div className='blink_me'>
-                            <a href="https://www.google.com/forms/about/"><p>Sign Up!</p></a>
+                            <a href="gbm.iecsemanipal.com"><p>Sign Up!</p></a>
                         </div>
                     </button>
                 </div>
